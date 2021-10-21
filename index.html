@@ -21,9 +21,47 @@
                 <img src="./imgs/logo.png" alt="logo" class="header__image" style="width:106px;height:39px;">
             </a>
         </div>
-        <div class="header__cart">
-            <a href="#"><img src="./imgs/Cart.png" alt="Cart" style="width:23px;height:23px;" class="header__cart_img"></a>
-            <span class="header__span">2</span>
+        <div class="hover-sidebar">
+            <div class="header__cart">
+                <a href="#">
+                    <img src="./imgs/Cart.png" alt="Cart" style="width:23px;height:23px;" class="header__cart_img">
+                </a>
+                <span class="header__span">2</span>
+            </div>
+            <section class="sidebar">
+                <span class="sidebar__close">
+                    <img src="./imgs/close.png" alt="" width="25px">
+                </span>
+                <div class="sidebar__items">
+                    <div class="sidebar__item">
+                        <img src="./imgs/image1.png" alt="" class="sidebar__item-photo">
+                        <div class="sidebar__item-description">
+                            <p class="sidebar__item-name">Рубашка на пуговицах</p>
+                            <div>
+                                <p class="sidebar__item-count">- 1 +</p>
+                                <span class="sidebar__item-price">$320</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar__item">
+                        <img src="./imgs/image3.png" alt="" class="sidebar__item-photo">
+                        <div class="sidebar__item-description">
+                            <p class="sidebar__item-name">Кроссовки «Kaiwa» Y3 x Adidas</p>
+                            <div>
+                                <p class="sidebar__item-count">- 2 +</p>
+                                <span class="sidebar__item-price">$240</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar_total">
+                    <p>Итого</p>
+                    <span>$800</span>
+                </div>
+                <div class="sidebar__button">
+                    <button>Купить</button>
+                </div>
+            </section>
         </div>
     </header>
     <main>
@@ -36,50 +74,136 @@
                 <li><a href="">Брюки</a></li>
             </ul>
             <div class="nav__sort">
-                <p><a href="">Сортировать</a></p>
-                <img src="./imgs/Path.png" alt="Path" style="width:13px;height:6px;" class="nav__path">
+                <div class="nav__sort-dropdown">
+                    <p>Сортировать</p>
+                    <img src="./imgs/Path.png" alt="Path" style="width:13px;height:6px;" class="nav__path">
+                </div>
+                <div class="nav__sort-dropdown-content">
+                    <a href="">От дорогих к дешевым</a>
+                    <a href="">От дешевых к дорогим</a>
+                    <a href="">Популярное</a>
+                    <a href="">Новые</a>
+                </div>
             </div>
         </nav>
         <section class="content">
             <div class="content__product">
-                <a href=""><img src="./imgs/image1.png" alt="" class="content__photo"></a>
+                <div class="content__photos">
+                    <a href=""><img src="./imgs/image1.png" alt="" class="content__photo"></a>
+                    <div class="content__slider">
+                        <img src="./imgs/Path_back.png" alt="" style="width: 10px; height: 18px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider1.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider2.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider3.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider4.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider5.png" style="width: 44px;">
+                        <img src="./imgs/Path_forward.png" alt="" style="width: 10px; height: 18px;">
+                    </div>
+                </div>
                 <p class="content__category">рубашки</p>
-                <a href=""><p class="content__name">Рубашка на пуговицах</p></a>
+                <a href="">
+                    <p class="content__name">Рубашка на пуговицах</p>
+                </a>
                 <span class="content__price">$320</span>
                 <p class="content__count">на складе: 20</p>
             </div>
             <div class="content__product">
-                <a href=""><img src="./imgs/image2.png" alt="" class="content__photo"></a>
+                <div class="content__photos">
+                    <a href=""><img src="./imgs/image2.png" alt="" class="content__photo"></a>
+                    <div class="content__slider">
+                        <img src="./imgs/Path_back.png" alt="" style="width: 10px; height: 18px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider1.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider2.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider3.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider4.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider5.png" style="width: 44px;">
+                        <img src="./imgs/Path_forward.png" alt="" style="width: 10px; height: 18px;">
+                    </div>
+                </div>
                 <p class="content__category">рубашки</p>
-                <a href=""><p class="content__name">Рубашка с принтом</p></a>
+                <a href="">
+                    <p class="content__name">Рубашка с принтом</p>
+                </a>
                 <span class="content__price">$170</span>
                 <p class="content__count">на складе: 11</p>
             </div>
             <div class="content__product">
-                <a href=""><img src="./imgs/Bitmap.png" alt="" class="content__photo"></a>
+                <div class="content__photos">
+                    <a href=""><img src="./imgs/Bitmap.png" alt="" class="content__photo"></a>
+                    <div class="content__slider">
+                        <img src="./imgs/Path_back.png" alt="" style="width: 10px; height: 18px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider1.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider2.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider3.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider4.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider5.png" style="width: 44px;">
+                        <img src="./imgs/Path_forward.png" alt="" style="width: 10px; height: 18px;">
+                    </div>
+                </div>
                 <p class="content__category">обувь</p>
-                <a href=""><p class="content__name">Кроссовки «Kaiwa» Y3 x Adidas</p></a>
+                <a href="">
+                    <p class="content__name">Кроссовки «Kaiwa» Y3 x Adidas</p>
+                </a>
                 <span class="content__price">$240</span>
                 <p class="content__count">на складе: 134</p>
             </div>
             <div class="content__product">
-                <a href=""><img src="./imgs/image4.png" alt="" class="content__photo"></a>
+                <div class="content__photos">
+                    <a href=""><img src="./imgs/image4.png" alt="" class="content__photo"></a>
+                    <div class="content__slider">
+                        <img src="./imgs/Path_back.png" alt="" style="width: 10px; height: 18px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider1.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider2.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider3.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider4.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider5.png" style="width: 44px;">
+                        <img src="./imgs/Path_forward.png" alt="" style="width: 10px; height: 18px;">
+                    </div>
+                </div>
                 <p class="content__category">рубашки</p>
-                <a href=""><p class="content__name">куртка-рубашка с карманами</p></a>
+                <a href="">
+                    <p class="content__name">куртка-рубашка с карманами</p>
+                </a>
                 <span class="content__price">$1240</span>
                 <p class="content__count">на складе: 11</p>
             </div>
             <div class="content__product">
-                <a href=""><img src="./imgs/image5.png" alt="" class="content__photo"></a>
+                <div class="content__photos">
+                    <a href=""><img src="./imgs/image5.png" alt="" class="content__photo"></a>
+                    <div class="content__slider">
+                        <img src="./imgs/Path_back.png" alt="" style="width: 10px; height: 18px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider1.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider2.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider3.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider4.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider5.png" style="width: 44px;">
+                        <img src="./imgs/Path_forward.png" alt="" style="width: 10px; height: 18px;">
+                    </div>
+                </div>
                 <p class="content__category">рубашки</p>
-                <a href=""><p class="content__name">Кроссовки с пряжками</p></a>
+                <a href="">
+                    <p class="content__name">Кроссовки с пряжками</p>
+                </a>
                 <span class="content__price">$390</span>
                 <p class="content__count">на складе: 11</p>
             </div>
             <div class="content__product">
-                <a href=""><img src="./imgs/image6.png" alt="" class="content__photo"></a>
+                <div class="content__photos">
+                    <a href=""><img src="./imgs/image6.png" alt="" class="content__photo"></a>
+                    <div class="content__slider">
+                        <img src="./imgs/Path_back.png" alt="" style="width: 10px; height: 18px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider1.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider2.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider3.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider4.png" style="width: 44px;">
+                        <img class="content__slider-img" src="/imgs/slider images/slider5.png" style="width: 44px;">
+                        <img src="./imgs/Path_forward.png" alt="" style="width: 10px; height: 18px;">
+                    </div>
+                </div>
                 <p class="content__category">рубашки</p>
-                <a href=""><p class="content__name">Укороченные зауженные брюки</p></a>
+                <a href="">
+                    <p class="content__name">Укороченные зауженные брюки</p>
+                </a>
                 <span class="content__price">$647</span>
                 <p class="content__count">на складе: 7</p>
             </div>
